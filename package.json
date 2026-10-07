@@ -1,0 +1,48 @@
+{
+  "name": "html-parsor",
+  "version": "0.1.0",
+  "description": "Universal HTML-to-document exporter. Clean HTML in, any format out — PDF, DOCX, XLSX, PPTX, Markdown, CSV, TXT, JSON.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "html",
+    "exporter",
+    "converter",
+    "document",
+    "pdf",
+    "docx",
+    "word",
+    "xlsx",
+    "excel",
+    "pptx",
+    "powerpoint",
+    "markdown",
+    "csv",
+    "txt",
+    "json"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "vitest": "^2.1.2"
+  }
+}

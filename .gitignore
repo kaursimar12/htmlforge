@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Test / coverage
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Playground output files
+output.*
+
+# Local dev/testing scratch (preview server, sample fixtures, bespoke scripts)
+dev/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
